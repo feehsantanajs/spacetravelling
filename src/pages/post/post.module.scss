@@ -1,1 +1,52 @@
-// TODO
+.containerMain{
+    width:720px;
+    margin: 2rem auto;
+
+    h1{
+        color:var(--heading);
+        font-size:48px;
+    }
+    .info{
+        margin:1rem 0rem;
+        width:25rem;
+        padding: 0;
+        display:flex;
+        justify-content: space-between;
+          
+        font-size:1rem;
+        color:var(--info);
+
+        time{
+            display: flex;
+            align-items: center;
+            gap:0.5rem;
+            
+        }
+        strong{
+           
+            display: flex;
+            align-items: center;
+            gap:0.5rem; 
+           
+        }
+    }
+}
+
+.contentGroup{
+    margin-top:1rem;
+    display:flex;
+    flex-direction: column;
+    gap:1rem;
+    h3{
+        margin-top:2rem;
+        font-size:25px;
+        color:var(--heading)
+    }
+
+   p{   
+        margin-bottom:1rem;
+     
+    }
+    
+
+}

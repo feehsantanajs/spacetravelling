@@ -1,1 +1,61 @@
-// TODO
+.contentContainer{
+    max-width:700px;
+    padding-left:4rem;
+    margin:0 auto;
+
+    .postContent{
+        a{
+            display:block;
+        
+        
+            & + a{
+                margin-top:5rem;
+            }
+            
+            h1{
+                font-size:28px;
+                color:var(--heading);
+                font-weight: bold;
+                transition: color 0.25s;
+            
+            }
+
+            h3{
+                font-weight:400;
+                font-size: 18px;
+                margin-top:1rem;
+                margin-bottom:1rem;
+                line-height: 2rem;;
+            }
+            
+            
+            &:hover h1{
+                color:var(--highlight)
+            }
+
+            .infos{
+                display:flex;
+                font-size: 1rem;
+                width:18rem;
+                justify-content: space-between;
+                padding:0.5rem 0;
+                margin:1rem 0;
+            }
+        }  
+    }
+
+    
+    a{
+        h4{
+            color:var(--highlight);
+            margin-top:5rem;
+            transition: filter 0.25s;
+            &:hover{
+                filter:brightness(0.8);
+            }
+        }
+    }
+
+    
+}
+
